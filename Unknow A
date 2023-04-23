@@ -1,0 +1,260 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Fly = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Fling = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local NOCLIP = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TELEPORT = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local INFINITEJUMP = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local CHATSPAMMER = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_10 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(131, 131, 131)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 4
+Frame.Position = UDim2.new(0.226434425, 0, 0.236521736, 0)
+Frame.Size = UDim2.new(0, 567, 0, 329)
+
+UICorner.Parent = Frame
+
+Fly.Name = "Fly"
+Fly.Parent = Frame
+Fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fly.Position = UDim2.new(0.0317460336, 0, 0.124620065, 0)
+Fly.Size = UDim2.new(0, 200, 0, 50)
+Fly.Font = Enum.Font.SourceSansBold
+Fly.Text = "FLY"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextScaled = true
+Fly.TextSize = 14.000
+Fly.TextWrapped = true
+Fly.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/nwypYDr3'),true))()
+end)
+
+UICorner_2.Parent = Fly
+
+Fling.Name = "Fling"
+Fling.Parent = Frame
+Fling.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fling.Position = UDim2.new(0.0317460336, 0, 0.382978737, 0)
+Fling.Size = UDim2.new(0, 200, 0, 50)
+Fling.Font = Enum.Font.SourceSansBold
+Fling.Text = "FLING"
+Fling.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fling.TextScaled = true
+Fling.TextSize = 14.000
+Fling.TextWrapped = true
+Fling.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/kzvRX8n9'), true)()
+end)
+
+UICorner_3.Parent = Fling
+
+NOCLIP.Name = "NOCLIP"
+NOCLIP.Parent = Frame
+NOCLIP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NOCLIP.Position = UDim2.new(0.0317460336, 0, 0.662613988, 0)
+NOCLIP.Size = UDim2.new(0, 200, 0, 50)
+NOCLIP.Font = Enum.Font.SourceSansBold
+NOCLIP.Text = "NOCLIP"
+NOCLIP.TextColor3 = Color3.fromRGB(0, 0, 0)
+NOCLIP.TextScaled = true
+NOCLIP.TextSize = 14.000
+NOCLIP.TextWrapped = true
+NOCLIP.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/2EgbQTji'), true)()
+end)
+
+UICorner_4.Parent = NOCLIP
+
+TELEPORT.Name = "TELEPORT"
+TELEPORT.Parent = Frame
+TELEPORT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TELEPORT.Position = UDim2.new(0.532627881, 0, 0.662613988, 0)
+TELEPORT.Size = UDim2.new(0, 200, 0, 50)
+TELEPORT.Font = Enum.Font.SourceSansBold
+TELEPORT.Text = "TELEPORT"
+TELEPORT.TextColor3 = Color3.fromRGB(0, 0, 0)
+TELEPORT.TextScaled = true
+TELEPORT.TextSize = 14.000
+TELEPORT.TextWrapped = true
+TELEPORT.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/um1xCB3n'), true)()
+end)
+
+UICorner_5.Parent = TELEPORT
+
+INFINITEJUMP.Name = "INFINITE JUMP"
+INFINITEJUMP.Parent = Frame
+INFINITEJUMP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+INFINITEJUMP.Position = UDim2.new(0.532627881, 0, 0.382978737, 0)
+INFINITEJUMP.Size = UDim2.new(0, 200, 0, 50)
+INFINITEJUMP.Font = Enum.Font.SourceSansBold
+INFINITEJUMP.Text = "INF JUMP"
+INFINITEJUMP.TextColor3 = Color3.fromRGB(0, 0, 0)
+INFINITEJUMP.TextScaled = true
+INFINITEJUMP.TextSize = 14.000
+INFINITEJUMP.TextWrapped = true
+INFINITEJUMP.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/xT34t578'), true)()
+end)
+
+UICorner_6.Parent = INFINITEJUMP
+
+CHATSPAMMER.Name = "CHAT SPAMMER"
+CHATSPAMMER.Parent = Frame
+CHATSPAMMER.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CHATSPAMMER.Position = UDim2.new(0.532627881, 0, 0.124620065, 0)
+CHATSPAMMER.Size = UDim2.new(0, 200, 0, 50)
+CHATSPAMMER.Font = Enum.Font.SourceSansBold
+CHATSPAMMER.Text = "CHAT SPAMMER"
+CHATSPAMMER.TextColor3 = Color3.fromRGB(0, 0, 0)
+CHATSPAMMER.TextScaled = true
+CHATSPAMMER.TextSize = 14.000
+CHATSPAMMER.TextWrapped = true
+CHATSPAMMER.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/JYiQDXjq'), true)()
+end)
+
+UICorner_7.Parent = CHATSPAMMER
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.0317460336, 0, 0.881458938, 0)
+TextLabel.Size = UDim2.new(0, 162, 0, 30)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Creator: UnknowErrorCrash"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_8.Parent = TextLabel
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Position = UDim2.new(0.532627821, 0, 0.881458938, 0)
+TextLabel_2.Size = UDim2.new(0, 202, 0, 30)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "Discord: https://discord.io/UnknowAdmin"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_9.Parent = TextLabel_2
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.Position = UDim2.new(0.183421403, 0, 0.0151975686, 0)
+TextLabel_3.Size = UDim2.new(0, 313, 0, 31)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Unknow Admin"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UICorner_10.Parent = TextLabel_3
+
+-- Scripts:
+
+local function WCKTYZ_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService('UserInputService')
+
+	local frame = script.Parent
+
+
+
+	local dragToggle = nil
+
+	local dragSpeed = 0.25
+
+	local dragStart = nil
+
+	local startPos = nil
+
+
+
+	local function updateInput(input)
+
+		local delta = input.Position - dragStart
+
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+
+	end
+
+
+
+	frame.InputBegan:Connect(function(input)
+
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+
+			dragToggle = true
+
+			dragStart = input.Position
+
+			startPos = frame.Position
+
+			input.Changed:Connect(function()
+
+				if input.UserInputState == Enum.UserInputState.End then
+
+					dragToggle = false
+
+				end
+
+			end)
+
+		end
+
+	end)
+
+
+
+	UIS.InputChanged:Connect(function(input)
+
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+
+			if dragToggle then
+
+				updateInput(input)
+
+			end
+
+		end
+
+	end)
+
+
+end
+coroutine.wrap(WCKTYZ_fake_script)()
